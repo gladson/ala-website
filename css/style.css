@@ -1040,6 +1040,12 @@ h6 {
   overflow: hidden;
   background: #fff;
   height: 160px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+#clients .client-logo:hover {
+  -webkit-filter: grayscale(0%) !important;
 }
 
 #clients .client-logo:hover img {
